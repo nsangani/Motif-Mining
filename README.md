@@ -2,13 +2,13 @@
 Script to preprocess CLIP-seq experiment from ENCODE
 
 # Download the script from ENCODE
-Select experiment of interest and downlaod the script : https://www.encodeproject.org/matrix/?type=Experiment
+Select experiment of interest and downlaod the script : https://www.encodeproject.org/matrix/?type=Experiment <br>
 Follow the instructions in the script and download the data 
 
 # Preprocessing 
-Remove chr GL, KI, X, Y
+Remove chr GL, KI, X, Y <br>
 Split the data into 80/20
 
 # Script Details
-clean_ENCODE_functions.py has all the functions needed to clean the files
+clean_ENCODE_functions.py has all the functions needed to clean the files <br>
 seq_cleaning.py has code to generate scripts for bedtools among others to align your data with ENCODE
